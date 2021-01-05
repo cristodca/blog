@@ -247,12 +247,14 @@ nav {
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: var(--main-footer);
     border-top: 30px solid var(--header-color);
     text-align: center;
 }
+    footer .footer-autor {
+        margin-top: 30px;
+    }
     footer p {
         color: var(--main-white);
-        margin-top: 30px;
     }
