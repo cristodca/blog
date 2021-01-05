@@ -56,6 +56,9 @@
         .projects-main-container {
             grid-template-columns: 1fr 1fr;
         }
+        header .header-icons-container .icons {
+            width: 50%;
+        }
 }
 
 @media (max-width: 600px) {
@@ -64,5 +67,13 @@
     }
     .projects-main-container {
         grid-template-columns: 1fr;
+    }
+    .profile-main-container img {
+        max-width: 100%;
+    }
+}
+@media (max-width: 420px) {
+    header .header-icons-container .icons {
+        width: 60%;
     }
 }
