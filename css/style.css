@@ -246,11 +246,12 @@ nav {
     
 
 footer {
-    width: 100%;
+    width: calc(100% - 2rem);
     height: 100px;
     background-color: var(--main-footer);
     border-top: 30px solid var(--header-color);
     text-align: center;
+    padding: 0 1rem;
 }
     footer .footer-autor {
         margin-top: 30px;

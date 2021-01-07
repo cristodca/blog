@@ -36,6 +36,9 @@
         font-size: 2em;
         padding: .5em;
     }
+    footer {
+        height: 120px;
+    }
 }
 
 @media (max-width: 720px){
@@ -62,6 +65,9 @@
 }
 
 @media (max-width: 600px) {
+    footer {
+        height: 140px;
+    }
     .blogs-posts-container .post-container{
         max-width: 95%;
     }
@@ -73,6 +79,9 @@
     }
 }
 @media (max-width: 420px) {
+    footer {
+        height: 160px;
+    }
     header .header-icons-container .icons {
         width: 60%;
     }
